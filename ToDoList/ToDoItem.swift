@@ -5,13 +5,16 @@
 //  Created by Allison Korkola on 8/3/23.
 //
 
-import SwiftUI
+import Foundation
 
-class ToDoItem {
-    var title = 3
-    var isImportant = 1
+class ToDoItem: Identifiable {
+    var title = ""
+    var isImportant = false
+    var id = UUID()
+    
+    init(title: String, isImportant: Bool = false) {
+            self.title = title
+            self.isImportant = isImportant
+        }
 }
-init(title: String, isImportant: Bool = false) {
-        self.title = title
-        self.isImportant = isImportant
-    }
+

@@ -11,6 +11,8 @@
 		680816582A7CCEDD00DA54EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680816572A7CCEDD00DA54EE /* ContentView.swift */; };
 		6808165A2A7CCEE000DA54EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680816592A7CCEE000DA54EE /* Assets.xcassets */; };
 		6808165D2A7CCEE000DA54EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6808165C2A7CCEE000DA54EE /* Preview Assets.xcassets */; };
+		680816682A7CD95100DA54EE /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680816672A7CD95100DA54EE /* ToDoItem.swift */; };
+		6808166A2A7CDC0100DA54EE /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680816692A7CDC0100DA54EE /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		680816572A7CCEDD00DA54EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		680816592A7CCEE000DA54EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6808165C2A7CCEE000DA54EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		680816672A7CD95100DA54EE /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		680816692A7CDC0100DA54EE /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		680816542A7CCEDD00DA54EE /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				680816672A7CD95100DA54EE /* ToDoItem.swift */,
 				680816552A7CCEDD00DA54EE /* ToDoListApp.swift */,
 				680816572A7CCEDD00DA54EE /* ContentView.swift */,
+				680816692A7CDC0100DA54EE /* NewToDoView.swift */,
 				680816592A7CCEE000DA54EE /* Assets.xcassets */,
 				6808165B2A7CCEE000DA54EE /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				680816582A7CCEDD00DA54EE /* ContentView.swift in Sources */,
 				680816562A7CCEDD00DA54EE /* ToDoListApp.swift in Sources */,
+				680816682A7CD95100DA54EE /* ToDoItem.swift in Sources */,
+				6808166A2A7CDC0100DA54EE /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
